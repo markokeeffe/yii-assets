@@ -1,0 +1,26 @@
+{
+  "name": "markokeeffe/yii-assets",
+  "description": "Minification, caching and CDN for Javascript, CSS and images",
+  "authors": [
+    {
+      "name": "Mark O'Keeffe",
+      "email": "mark.ok@me.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "markokeeffe/yii-repo-rackspace": "dev-master",
+    "natxet/CssMin": "3.0.2",
+    "lmammino/jsmin4assetic": "1.0.*",
+    "kriswallsmith/assetic": "1.1.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "MOK\\Assets": "src/"
+    },
+    "classmap": [
+      "src/components/",
+      "src/controllers/"
+    ]
+  }
+}
